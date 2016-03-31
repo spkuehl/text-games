@@ -1,1 +1,1 @@
-web: gunicorn text-games.wsgi --log-file -
+web: gunicorn text_games.wsgi --log-file -
