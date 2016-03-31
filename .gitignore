@@ -89,4 +89,7 @@ ENV/
 .spyderproject
 
 # idea directory
-./idea/*
+/.idea
+
+# sqlite db
+db.sqlite3
