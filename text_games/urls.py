@@ -18,4 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$','text_games.views.home', name='home'),
+    url(r'^comingsoon/$', 'text_games.views.coming_soon', name='comingsoon')
 ]
