@@ -94,3 +94,4 @@ ENV/
 
 # sqlite db
 db.sqlite3
+text_games/settings_dev1.py
