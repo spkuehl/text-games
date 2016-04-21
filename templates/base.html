@@ -1,0 +1,21 @@
+{% extends 'bootstrap.html' %}
+
+{% load bootstrap3 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+{% load staticfiles %}
+
+{% block bootstrap3_content %}
+    <div class="container">
+
+        <h3>
+            <a href="{% url 'home' %}">home</a>
+        </h3>
+
+        {% autoescape off %}{% bootstrap_messages %}{% endautoescape %}
+
+        {% block content %}(no content){% endblock %}
+    </div>
+
+{% endblock %}
