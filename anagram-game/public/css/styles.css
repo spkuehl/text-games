@@ -8,7 +8,7 @@ Dark Purple : #A22FB0
 */
 
 html, body {
-    background-color: #78BD4C;
+    background-color: #091CAB;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -33,7 +33,7 @@ html, body {
     font-size: 2em;
     line-height: 1.2;
     text-align: center;
-    background-color: #8AD453;
+    background-color: #D02626; /* 8AD453*/
     white-space: nowrap;
     vertical-align: middle;
     cursor: pointer;
@@ -53,7 +53,8 @@ html, body {
 
 .btn:hover,
 .btn:focus {
-    color: #AE37B2;
+    color: #DADADA;
+    background-color: grey;
     text-decoration: none;
 }
 
@@ -101,7 +102,7 @@ html, body {
     width: 100%;
     font-family: 'Quicksand', sans-serif;
     color: #ECFFE0;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .buttons {
@@ -318,4 +319,12 @@ html, body {
     bottom: 0;
 }
 
+.infoBig {
+  background-color: #D02626;
+  color: white;
+}
 
+.gameId {
+  background-color: #D02626;
+  color: white;
+}
